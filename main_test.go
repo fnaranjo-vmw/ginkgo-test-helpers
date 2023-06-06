@@ -36,9 +36,9 @@ var _ = Describe("Using helper functions in tests", func() {
 		When("the helper function returns an GomegaMatcher", func() {
 			It("prints USEFUL line number and USEFUL automatic text in colorized text and summaries. Getting the best of both worlds", func() {
 				val := "some-value"
-				Expect(val).To(gomegaHelper3(val))
+				Expect(val).To(gomegaHelper3())
 				// Using better functions names makes the code easy to read
-				// Expect(val).To(beASupportedValue(val))
+				// Expect(val).To(beASupportedValue())
 			})
 		})
 	})

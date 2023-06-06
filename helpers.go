@@ -26,6 +26,6 @@ func gomegaHelper2(val string) error {
 	return nil
 }
 
-func gomegaHelper3(val string) types.GomegaMatcher {
+func gomegaHelper3() types.GomegaMatcher {
 	return Equal("never ever fail")
 }
